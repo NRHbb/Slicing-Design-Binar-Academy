@@ -2,6 +2,7 @@ body {
     font-family: "Open Sans", Arial;
     font-size: 18px;
     color: white;
+    overflow-x: hidden;
 }
 
 h1,
@@ -88,7 +89,7 @@ h3 {
     background: rgba(8, 10, 11, 1);
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 20vh;
     background-repeat: no-repeat;
 }
 
@@ -96,7 +97,7 @@ h3 {
 .navbar {
     background: rgba(0, 0, 0, 0.5) !important;
     position: absolute;
-    width: 100vw;
+    width: 100%;
     z-index: 5;
 }
 
