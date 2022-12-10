@@ -89,10 +89,12 @@ h3 {
     background: rgba(8, 10, 11, 1);
     background-position: center;
     background-size: cover;
-    min-height: 20vh;
+    min-height: calc(100vh - 152px);
     background-repeat: no-repeat;
 }
-
+footer{
+    background: rgba(8, 10, 11, 1);
+}
 /* navbar */
 .navbar {
     background: rgba(0, 0, 0, 0.5) !important;
